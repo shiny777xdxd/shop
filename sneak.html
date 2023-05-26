@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Emboss</title>
+	<link rel="stylesheet" type="text/css" href="sneak2.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3ee3501b25.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+	<div class="header">
+		<h1 class="header-title">SneaK shop</h1>
+		<p class="header-subtitle">Лучшие приватки с обучениями</p>
+		<div class="header-arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+	</div>
+
+	<div class="mods">
+		<div class="container">
+			<h3 class="mods-header">SneaK privats</h3>
+			<div class="mods-cards-wrapper">
+				<div class="card">
+					<img class="card-img" src="./лого.png" alt="VGG emboss mod">
+					<h4 class="card-title">Хаккинг</h4>
+					<p>Взломы, фишинги, кибербезопасность и многое другое</p>
+					<p class="pros" id="buy"><a href="#">Купить</a></p>
+				</div>
+				<div class="card">
+					<img class="card-img" src="./лого.png" alt="VGG emboss mod">
+					<h4 class="card-title">Деанонимизация (деанон)</h4>
+					<p>Множество авторских методичек и туторов</p>
+					<p class="pros" id="buy"><a href="#">Купить</a></p>
+				</div>
+				<div class="card">
+					<img class="card-img" src="./лого.png" alt="VGG emboss mod">
+					<h4 class="card-title">Программирование</h4>
+					<p>Различные дорогие курсы по разным языкам программирования, подборки с видео и тд и тп</p>
+					<p class="pros" id="buy"><a href="#">Купить</a></p>
+				</div>
+				<div class="card">
+					<img class="card-img" src="./лого.png" alt="VGG emboss mod">
+					<h4 class="card-title">Схемки заработка</h4>
+					<p>Множество работающих схем, от серых до полностью бедых схем</p>
+					<p class="pros" id="buy"><a href="#">Купить</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-row">
+				<div class="footer-copi footer-col">
+					<div class="footer-copi-name">ShINY</div>
+					<p>Верстка сайтов по макетам из Figma</p>
+				</div>
+				<div class="footer-icon footer-col">
+					<p>Мои соц сети</p>
+					<div class="icon">
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-youtube"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-vk"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-pinterest"></i>
+						</a>
+					</div>
+				</div>
+				<div class="footer-contacts footer-col">
+					<a href="" class="footer-bottum">
+						Связаться в ВК
+					</a>
+					<p>Напиши мне для уточнения цвета модов</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script>
+		let tg = window.Telegram.WedApp;
+		let buy = document.getElementById("buy");
+		let order = document.getElementById("order");
+
+		buy.addEventListener("click", () => {
+			document.getElementById("header", "mods", "footer").style.display = "none";
+
+		});
+
+
+	</script>
+
+
+</body>
+</html>
