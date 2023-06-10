@@ -1,0 +1,50 @@
+.style2 {
+	text-align: center;
+	color: black;
+	background-color: white;
+	top: 100px;
+	left: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 9;
+}
+body{
+	justify-content: center;
+	text-align: center;
+	background: white;
+	color: black;
+}
+header{
+	display: block;
+	justify-content: center;
+}
+.Logo, .Top_menu{
+	margin-right: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu li{
+	margin-right: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.Logo h1{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 30px;
+	color: white;
+}
+.Top_menu a:hover{
+	color: yellow;
+}
+.All_header_menu{
+	background: black;
+	color: white;
+}

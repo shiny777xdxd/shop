@@ -1,0 +1,158 @@
+body{
+	
+	text-align: center;
+	
+}
+header{
+	display: block;
+	
+}
+.Logo, .Top_menu{
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu li{
+	margin-right: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.Logo h1{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 30px;
+	color: white;
+}
+.Top_menu a:hover{
+	color: yellow;
+}
+.All_header_menu{
+	background: black;
+	color: white;
+}
+.input{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.input h1{
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 24px;
+}
+.poisk input {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+input[type="text"]{
+	height: 40px;
+	padding: 0 10px;
+	width: 540px;
+	border-radius: 15px 0 0 15px;
+}
+.poisk input[type="submit"]{
+	left: -5px;
+	width: 250;
+	height: 40px;
+	position: relative;
+	border-radius: 0 25px 25px 0;
+	background: #00FA9A;
+	cursor: pointer;
+}
+.poisk input[type="submit"]:hover{
+	background: #FF6347;
+	
+}
+.obsors input{
+	margin-top: 10px;
+	display: inline-block;
+}
+.icon {
+	display: block;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+
+}
+i {
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	font-size: 35px;
+	cursor: pointer;
+	vertical-align: middle;
+	transition: all 3s ease;
+}
+.icon a {
+
+}
+a i {
+	height: 80px;
+  	width: 80px;
+	font-size: 35px;
+	margin-top: 50px;
+	margin: 40px;
+	border-radius: 50%;
+	
+}
+.fa-instagram{
+	color: #FF6347;
+	transition: 1s;
+}
+.fa-instagram:hover{
+	transform: scale(1.5);
+}
+.fa-youtube{
+	color: red;
+	transition: 1s;
+}
+.fa-youtube:hover{
+	transform: scale(1.5);
+}
+.fa-vk{
+	color: #4682B4;
+	transition: 1s;
+}
+.fa-vk:hover{
+	transform: scale(1.5);
+}
+.fa-twitter-square{
+	color: #1E90FF;
+	transition: 1s;
+}
+.fa-twitter-square:hover{
+	transform: scale(1.5);
+}
+.obsors{
+	margin-left: 400px;
+	margin-top: 300px;
+	text-align: center;
+}
+table .obsors td{
+	border-top: black thin dotted;
+	border-bottom: black thin dotted;
+	padding: 10px;
+}
+table img{
+	width: 300px;
+	height: 400px;
+}
+img {
+	transition: 0.8s;
+}
+img:hover{
+	transform: rotate(360deg);
+}

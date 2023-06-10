@@ -1,0 +1,66 @@
+.style{
+	position: absolute;
+	text-align: center;
+	color: white;
+	background-color: black;
+	top: 100px;
+	left: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 999;
+}
+	
+}
+.style1:hover {
+	background-color: black;
+}
+.style1 {
+	text-align: center;
+	width: 1050px;
+    height: 730px;
+}	
+.style1:hover {
+	border-radius: 50px;
+	transform: scale(0.98);
+	box-shadow: 0 0 20px olive;
+}
+body{
+	justify-content: center;
+	text-align: center;
+	background: white;
+	color: black;
+}
+header{
+	display: block;
+	justify-content: center;
+}
+.Logo, .Top_menu{
+	margin-right: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu li{
+	margin-right: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.Logo h1{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 30px;
+	color: white;
+}
+.Top_menu a:hover{
+	color: yellow;
+}
+.All_header_menu{
+	background: black;
+	color: white;
+}
