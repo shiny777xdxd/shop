@@ -75,7 +75,38 @@ async def hack(message: types.message):
     await message.answer("Задать вопрос можно администратору: https://t.me/sneak_supprot", reply_markup=markup1)
 
 
-#
+
+mark1 = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
+
+markup777 = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
+mark = types.KeyboardButton("Выбирайте проценты нагрузки:")
+markup777.add(types.KeyboardButton("20%"))
+markup777.add(types.KeyboardButton("40%"))
+markup777.add(types.KeyboardButton("50%"))
+markup777.add(types.KeyboardButton("60%"))
+markup777.add(types.KeyboardButton("70%"))
+markup777.add(types.KeyboardButton("80%"))
+markup777.add(types.KeyboardButton("90%"))
+mark1.add(mark, markup777)
+
+
+
+@dp.message_handler(text="Создать майнер")
+async def adm(message: types.message):
+
+    await message.answer('Укажите максимальную нагрузку на CPU (процессор), когда компьютер используется, от 0 до 100%. (Рекомендуется не более 40%)', reply_markup=mark1)
+
+
+
+
+
+
+
+
+
+
+
+
 # @dp.callback_query_handler(lambda c: c.data == 'buy')
 # async def process_payment(callback_query: types.CallbackQuery):
 #     payment_url = 'https://www.free-kassa.ru/merchant/cash.php?m=YOUR_MERCHANT_ID&id=ORDER_ID&oa=AMOUNT&o=SIGNATURE'
