@@ -92,8 +92,7 @@ mark1.add(mark, markup777)
 
 
 @dp.message_handler(text="Создать майнер")
-async def adm(message: types.message):
-
+async def proc(message: types.message):
     await message.answer('Укажите максимальную нагрузку на CPU (процессор), когда компьютер используется, от 0 до 100%. (Рекомендуется не более 40%)', reply_markup=mark1)
 
 
